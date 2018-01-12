@@ -21,8 +21,8 @@ public class Trabajador extends Persona{
 		//super(nombre, dni);
 		
 	}
-	public Trabajador(String nombre, String dni, double sueldo){
-		super(nombre, dni);
+	public Trabajador(String nombre, String apellido, String dni, double sueldo){
+		super(nombre, apellido, dni);
 		this.sueldo = sueldo;
 	}
 	/**
